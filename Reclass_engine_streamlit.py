@@ -4,6 +4,12 @@ import pandas as pd
 import numpy as np
 from datetime import *
 
+st.sidebar.image('st_logo.png')
+st.sidebar.write("👋 Hi, I’m Shishir! I've always loved tinkering with things.")
+st.sidebar.write("🌱 I’m a Data Scientist at Intel. I am also a Masters in Data Science Student at Northwestern.")
+st.sidebar.write("📫 Reach me @ shishir.rd@gmail.com")
+st.sidebar.write("My Github is https://github.com/shishirrd")
+
 st.title("Welcome to my expense reclassification app!")
 st.subheader("Made with love by Shishir R Deshpande.")
 st.write('Please ensure your dataset is rectangular and has no blank rows at the top. CSV files preferred. Output dataframe can be viewed & downloaded from the bottom of this page!')
